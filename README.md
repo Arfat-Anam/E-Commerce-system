@@ -17,15 +17,3 @@ A simple, object-oriented E-commerce system built using Python. This mini projec
 - `ShoppingCart`: Manages the products in a customer's cart. Supports adding, removing, and applying discounts.
 - `Order`: Handles order creation, pricing, and clearing the cart once an order is processed.
 
-## Example Usage
-
-```python
-product1 = Product("Laptop", 1000, 5)
-product2 = Product("Phone", 500, 10)
-
-customer = Customer("Alice")
-customer.add_to_cart(product1, 1)
-customer.add_to_cart(product2, 2)
-
-order = Order(customer)
-print(order.process_order())
